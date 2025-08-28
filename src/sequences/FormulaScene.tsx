@@ -1,5 +1,5 @@
 import {AbsoluteFill, useCurrentFrame, interpolate} from 'remotion';
-import 'katex/dist/katex.min.css';
+import '../../src/katex.css';
 import {InlineMath} from 'react-katex';
 import {loadFont} from '@remotion/google-fonts/Poppins';
 
