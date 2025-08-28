@@ -1,0 +1,10 @@
+{
+  "title": "What are Electric Charges?",
+  "definition": "An electric charge is the physical property of matter that causes it to experience a force when placed in an electromagnetic field.",
+  "properties": [
+    "There are two types of electric charges: positive and negative.",
+    "Like charges repel each other, and opposite charges attract each other.",
+    "Charge is conserved: the net charge of an isolated system is constant."
+  ],
+  "formula": "F = k * (|q1*q2| / r^2)"
+}

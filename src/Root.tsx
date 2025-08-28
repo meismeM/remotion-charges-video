@@ -1,9 +1,8 @@
 import {Composition} from 'remotion';
-import {ElectricChargesVideo} from './Video'; // <-- CHANGE THIS IMPORT
-import './index.css'; // <-- CORRECT FILENAME
+import './index.css';
+import {Main} from './Composition';
 
-// TikTok/Shorts dimensions & timing
-const DURATION_IN_SECONDS = 15;
+const DURATION_IN_SECONDS = 20;
 const VIDEO_FPS = 30;
 const VIDEO_WIDTH = 1080;
 const VIDEO_HEIGHT = 1920;
@@ -11,8 +10,8 @@ const VIDEO_HEIGHT = 1920;
 export const RemotionRoot: React.FC = () => {
 	return (
 		<Composition
-			id="ElectricCharges" // <-- Give it a descriptive ID
-			component={ElectricChargesVideo} // <-- Use our renamed component
+			id="ElectricCharges"
+			component={Main}
 			durationInFrames={DURATION_IN_SECONDS * VIDEO_FPS}
 			fps={VIDEO_FPS}
 			width={VIDEO_WIDTH}
